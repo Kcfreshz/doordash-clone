@@ -1,0 +1,39 @@
+.crave__delivery {
+  height: 100vh;
+  // font-size: 1.2rem;
+  padding: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  // line-height: 1;
+  background-color: #fff;
+  text-align: start;
+
+  display: flex;
+
+
+
+  &--text {
+    
+    margin-top: 10.9rem;
+    margin-right: 8.5rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+
+    p {
+      width: 110%;
+      font-size: 1.5rem;
+    }
+  }
+
+  &--img {
+
+  }
+
+  &--pizza {
+
+  }
+}

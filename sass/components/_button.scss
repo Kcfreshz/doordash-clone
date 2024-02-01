@@ -1,0 +1,38 @@
+.btn {
+  padding: .7rem .9rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5rem;
+  border: none;
+  cursor: pointer;
+  
+
+  &:not(:first-child) {
+    margin-right: 2.5rem;
+  }
+
+  &--red {
+    background-color: #ee0000f5;
+    color: #fff;
+
+    &:hover {
+      background-color: #dd0000f5;
+    }
+  }
+  
+
+  &--white {
+    background-color: #fff;
+    color: #333;
+  }
+
+  &--icon {
+    font-size: 1.7rem;
+    font-weight: 700;
+    background-color: #fff;
+    color: #f02525;
+    border: none;
+    margin: 0 auto;
+  }
+}

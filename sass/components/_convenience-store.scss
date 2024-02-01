@@ -1,0 +1,41 @@
+.convenience__store {
+  height: 100vh;
+  font-size: 1.4rem;
+  padding: 10rem;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: start;
+  background-color: #fff;
+
+  display: flex;
+
+  h2 {
+    width: 120%;
+    font-size: 3.6rem;
+  }
+
+
+  &--text {
+    margin-top: 10.9rem;
+    margin-right: 15rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+
+    p {
+      width: 130%;
+      font-size: 1.5rem;
+    }
+  }
+
+  &--img {
+
+  }
+
+  &--pizza {
+
+  }
+}

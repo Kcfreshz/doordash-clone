@@ -1,0 +1,50 @@
+.grocery__delivery {
+  min-height: 100vh;
+  background: url("../d-img/grocery_desktop.png") center center/cover;
+  position: relative;
+  color: #fff;
+  margin-top: -8rem;
+  
+
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .48);
+    
+  }
+
+  &--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+
+
+    .head-2 {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+     }
+
+     .text {
+       font-size: 1.5rem;
+       font-weight: 400;
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       margin-bottom: 2remrem;
+
+     }
+  }
+
+}

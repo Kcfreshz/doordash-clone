@@ -1,0 +1,57 @@
+.todo-gifting {
+  background-color: #fdf2f8;
+  padding-top: 2.5rem;
+  margin-top: -2rem;
+  text-align: center;
+  color: #333;
+  
+
+  h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    line-height: 1.2;
+  }
+
+  &__img-box {
+    display: flex;
+    padding: 5rem 5rem .2rem 5rem;
+    
+
+    .img-1-box {
+      padding-right: 4rem;
+    }
+
+    .img-2-box {
+      // padding-right: 8rem;
+    }
+
+    .img-3-box {
+      padding-right: 2rem;
+    }
+
+    .img-4-box {
+      
+    }
+
+
+    .img-1 {
+      width: 592px;
+      height: 523px;
+    }
+
+    .text {
+      font-size: 1.71rem;
+      line-height: 1.5;
+    }
+
+  }
+
+  
+
+  
+}
+
